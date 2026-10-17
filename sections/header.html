@@ -1,0 +1,348 @@
+<header class="sticky top-0 z-50 border-b border-[#C97989]/20 bg-[#F9E8E5]/95 shadow-[0_4px_24px_rgba(122,63,72,0.07)] backdrop-blur-xl">
+
+  <nav class="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8 xl:px-10"
+       aria-label="Main navigation">
+
+    <div class="flex min-h-[76px] items-center justify-between gap-3 lg:min-h-[86px]">
+
+      <!-- LOGO -->
+      <a href="#home"
+         class="flex shrink-0 items-center gap-2.5 sm:gap-3"
+         aria-label="Ranqraft homepage">
+
+        <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-[#7A3F48] text-lg font-black text-white shadow-md sm:h-12 sm:w-12 sm:rounded-2xl sm:text-xl">
+          R<span class="text-[#F9E8E5]">Q</span>
+        </span>
+
+        <span class="text-[23px] font-extrabold leading-none tracking-[-1.3px] text-[#7A3F48] sm:text-[27px]">
+          ranqraft<span class="text-[#C97989]">.</span>
+          <span class="mt-1.5 block text-[8px] font-bold uppercase tracking-[2.5px] text-[#7A3F48]/65 sm:text-[9px]">
+            Digital Excellence
+          </span>
+        </span>  
+      </a>
+
+      <!-- DESKTOP NAVIGATION -->
+      <div class="hidden items-center lg:flex">
+        <ul class="flex items-center gap-0 xl:gap-1">
+
+          <li>
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+
+          <!-- SERVICES DROPDOWN: INSIDE SAME LI -->
+          <li id="servicesItem" class="services-item relative">
+
+            <button
+              id="servicesToggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="servicesMenu"
+              class="nav-link inline-flex items-center gap-1.5"
+            >
+              Services
+
+              <svg
+                id="servicesArrow"
+                class="h-4 w-4 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </button>
+
+            <ul
+              id="servicesMenu"
+              class="services-dropdown absolute left-0 top-full z-50 w-[310px] rounded-2xl border border-[#C97989]/20 bg-white p-2 shadow-[0_20px_50px_rgba(122,63,72,0.16)]"
+            >
+
+              <li>
+                <a href="#services" class="service-link">
+                  <span class="service-number">01</span>
+                  <span class="flex-1">Website Development</span>
+                  <span class="service-arrow">↗</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#services" class="service-link">
+                  <span class="service-number">02</span>
+                  <span class="flex-1">SEO &amp; Local SEO</span>
+                  <span class="service-arrow">↗</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#services" class="service-link">
+                  <span class="service-number">03</span>
+                  <span class="flex-1">Digital Marketing</span>
+                  <span class="service-arrow">↗</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#services" class="service-link">
+                  <span class="service-number">04</span>
+                  <span class="flex-1">Social Media Marketing</span>
+                  <span class="service-arrow">↗</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#services" class="service-link">
+                  <span class="service-number">05</span>
+                  <span class="flex-1">Branding &amp; Design</span>
+                  <span class="service-arrow">↗</span>
+                </a>
+              </li>
+
+
+            </ul>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#about" class="nav-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- DESKTOP SEARCH + CTA -->
+      <div class="hidden shrink-0 items-center gap-2 xl:gap-3 lg:flex">
+
+        <form
+          action="/search"
+          method="GET"
+          role="search"
+          class="flex w-[145px] items-center gap-2 rounded-xl border border-[#C97989]/25 bg-white px-3 py-2.5 transition-colors focus-within:border-[#7A3F48] focus-within:ring-2 focus-within:ring-[#C97989]/20 xl:w-[180px] 2xl:w-[210px]"
+        >
+          <svg
+            class="h-4 w-4 shrink-0 text-[#7A3F48]/65"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <circle cx="11" cy="11" r="7"/>
+            <path stroke-linecap="round" d="m16 16 4 4"/>
+          </svg>
+
+          <input
+            name="q"
+            type="search"
+            placeholder="Search..."
+            aria-label="Search website"
+            class="w-full min-w-0 bg-transparent text-[13px] text-[#1A1A1A] outline-none placeholder:text-[#7A3F48]/50"
+          />
+
+          <button
+            type="submit"
+            aria-label="Submit search"
+            class="shrink-0 text-[#7A3F48] transition-colors hover:text-[#C97989]"
+          >
+            <svg
+              class="h-4 w-4"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 12h14m-6-6 6 6-6 6"
+              />
+            </svg>
+          </button>
+        </form>
+
+
+      </div>
+
+      <!-- MOBILE MENU BUTTON -->
+      <button
+        id="navToggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="mobileNav"
+        class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-[#C97989]/25 bg-white text-[#7A3F48] transition-colors hover:border-[#C97989]/50 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C97989]/40 lg:hidden"
+      >
+        <svg
+          id="menuOpenIcon"
+          class="h-6 w-6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+        >
+          <path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+
+        <svg
+          id="menuCloseIcon"
+          class="hidden h-6 w-6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="m6 6 12 12M18 6 6 18"
+          />
+        </svg>
+      </button>
+
+    </div>
+
+    <!-- MOBILE / TABLET NAVIGATION -->
+    <div
+      id="mobileNav"
+      class="hidden border-t border-[#C97989]/15 pb-5 pt-4 lg:hidden"
+    >
+      <div class="flex flex-col gap-1">
+
+        <a href="#home" class="mobile-nav-link">Home</a>
+
+        <!-- MOBILE SERVICES ACCORDION -->
+        <div>
+          <button
+            id="mobileServicesToggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobileServicesMenu"
+            class="flex w-full items-center justify-between rounded-xl px-4 py-3 text-sm font-semibold text-[#7A3F48]"
+          >
+            Services
+
+            <svg
+              id="mobileServicesArrow"
+              class="h-4 w-4 transition-transform duration-200"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m6 9 6 6 6-6"
+              />
+            </svg>
+          </button>
+
+          <div
+            id="mobileServicesMenu"
+            class="hidden space-y-1 px-3 pb-2 pt-1"
+          >
+            <a href="#services" class="mobile-service-link">
+              <span>01</span> Website Development
+            </a>
+
+            <a href="#services" class="mobile-service-link">
+              <span>02</span> SEO &amp; Local SEO
+            </a>
+
+            <a href="#services" class="mobile-service-link">
+              <span>03</span> Digital Marketing
+            </a>
+
+            <a href="#services" class="mobile-service-link">
+              <span>04</span> Social Media Marketing
+            </a>
+
+            <a href="#services" class="mobile-service-link">
+              <span>05</span> Branding &amp; Design
+            </a>
+          </div>
+        </div>
+
+        <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+        <a href="#about" class="mobile-nav-link">About Us</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+
+        <!-- MOBILE SEARCH -->
+        <form
+          action="/search"
+          method="GET"
+          role="search"
+          class="mt-3 flex items-center gap-2 rounded-xl border border-[#C97989]/25 bg-white p-2"
+        >
+          <svg
+            class="ml-2 h-5 w-5 shrink-0 text-[#7A3F48]/70"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <circle cx="11" cy="11" r="7"/>
+            <path stroke-linecap="round" d="m16 16 4 4"/>
+          </svg>
+
+          <input
+            name="q"
+            type="search"
+            placeholder="Search services, projects..."
+            aria-label="Search website"
+            class="min-w-0 flex-1 bg-transparent px-1 py-2 text-sm text-[#1A1A1A] outline-none placeholder:text-[#7A3F48]/50"
+          />
+
+          <button
+            type="submit"
+            aria-label="Submit search"
+            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[#7A3F48] text-white transition-colors hover:bg-[#69343D]"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 12h14m-6-6 6 6-6 6"
+              />
+            </svg>
+          </button>
+        </form>
+
+        <!-- MOBILE CTA -->
+        <a
+          href="#contact"
+          class="mt-3 flex items-center justify-center gap-2 rounded-xl bg-[#7A3F48] px-5 py-3.5 text-sm font-bold text-white transition-colors hover:bg-[#69343D]"
+        >
+          Get Free Audit <span>↗</span>
+        </a>
+
+      </div>
+    </div>
+
+  </nav>
+</header>  

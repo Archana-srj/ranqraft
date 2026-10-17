@@ -1,0 +1,45 @@
+<!-- COPYRIGHT SECTION -->
+<div class="border-t border-[#EAD7D7] px-6 py-6">
+
+  <div class="flex flex-col items-center justify-between gap-5 text-center md:flex-row md:text-left">
+
+    <!-- COPYRIGHT TEXT -->
+    <p class="text-sm leading-6 text-[#6F6263]">
+      © <span id="currentYear"></span>
+      <span class="font-semibold text-[#713D46]">Ranqraft</span>.
+      All Rights Reserved.
+    </p>
+
+    <!-- COPYRIGHT LINKS -->
+    <div class="flex flex-wrap items-center justify-center gap-x-5 gap-y-3 text-sm">
+
+      <a href="/terms-conditions"
+         class="group relative text-[#6F6263] transition-colors duration-300 hover:text-[#713D46]">
+        Terms &amp; Conditions
+        <span class="absolute -bottom-1 left-0 h-[1.5px] w-0 bg-[#B96F7C] transition-all duration-300 group-hover:w-full"></span>
+      </a>
+
+      <a href="/privacy-policy"
+         class="group relative text-[#6F6263] transition-colors duration-300 hover:text-[#713D46]">
+        Privacy Policy
+        <span class="absolute -bottom-1 left-0 h-[1.5px] w-0 bg-[#B96F7C] transition-all duration-300 group-hover:w-full"></span>
+      </a>
+
+      <a href="/contact"
+         class="group relative text-[#6F6263] transition-colors duration-300 hover:text-[#713D46]">
+        Contact Us
+        <span class="absolute -bottom-1 left-0 h-[1.5px] w-0 bg-[#B96F7C] transition-all duration-300 group-hover:w-full"></span>
+      </a>
+
+    </div>
+
+  </div>
+</div>
+
+<script>
+  const yearElement = document.getElementById("currentYear");
+
+  if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
+  }
+</script>

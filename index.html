@@ -15,215 +15,28 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="topbar">
-    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
-      <span><i class="fa-solid fa-location-dot me-2"></i>Gomti Nagar, Lucknow, Uttar Pradesh</span>
-      <div class="d-flex flex-wrap gap-3">
-        <a href="tel:+919140271496"><i class="fa-solid fa-phone me-2"></i>+91-9140271496</a>
-        <span><i class="fa-regular fa-clock me-2"></i>Open daily, 9 AM–10 PM</span>
-      </div>
-    </div>
-  </div>
+  <div data-include="sections/top-header.html"></div>
+  <div data-include="sections/header.html"></div>
+  
+  <main id="main" aria-busy="true">
+    <div data-include="sections/hero.html"></div>
+    <div data-include="sections/about.html"></div>
+    <div data-include="sections/services.html"></div>
+    <div data-include="sections/technologies.html"></div>
+    <div data-include="sections/team.html"></div>
+    <div data-include="sections/why-us.html"></div>
+    <div data-include="sections/faq.html"></div>
+    <div data-include="sections/contact-cta.html"></div>
+    <div data-include="sections/contact-details.html"></div>
 
-  <header class="site-header sticky-top">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand brand" href="#home" aria-label="Ranqraft home">
-          <span class="brand-mark">R<span>Q</span></span><span>ranqraft<span class="brand-dot">.</span></span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mainNav">
-          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
-            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-            <li class="nav-item ms-lg-2"><a class="btn btn-primary-custom btn-sm-nav" href="#contact">Get Free Audit <i class="fa-solid fa-arrow-right ms-2"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <main id="main">
-    <section class="hero-section section-space" id="home">
-      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
-      <div class="container position-relative">
-        <div class="row align-items-center g-5">
-          <div class="col-lg-7">
-            <div class="eyebrow"><span class="eyebrow-dot"></span> DIGITAL MARKETING AGENCY · LUCKNOW</div>
-            <h1>Turn your online presence into <span class="text-accent">real business growth.</span></h1>
-            <p class="hero-copy">Ranqraft helps businesses get found online, reach the right customers and generate more enquiries with smart websites, SEO, social media and paid ads.</p>
-            <div class="d-flex flex-wrap gap-3 mt-4">
-              <a class="btn btn-primary-custom btn-lg" href="#contact">Get My Free Audit <i class="fa-solid fa-arrow-right ms-2"></i></a>
-              <a class="btn btn-outline-custom btn-lg" href="https://wa.me/919140271496" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp me-2"></i>Chat on WhatsApp</a>
-            </div>
-            <div class="hero-proof mt-4">
-              <div class="proof-avatars" aria-hidden="true"><span>A</span><span>W</span><span>D</span><span>+</span></div>
-              <div><strong>150+ businesses</strong><small>supported with digital solutions*</small></div>
-              <div class="proof-divider"></div>
-              <div><strong>8+ years</strong><small>team experience*</small></div>
-            </div>
-            <p class="tiny-note mt-3">*Please verify experience, client count and start year before publishing.</p>
-          </div>
-          <div class="col-lg-5">
-            <div class="hero-visual">
-              <div class="visual-label"><span class="live-dot"></span> YOUR GROWTH DASHBOARD</div>
-              <div class="growth-card">
-                <div class="d-flex justify-content-between align-items-start"><div><small class="muted-label">Visibility overview</small><h3>Growth starts here.</h3></div><span class="icon-chip"><i class="fa-solid fa-chart-line"></i></span></div>
-                <div class="chart-area" aria-label="Decorative illustration of an upward growth chart">
-                  <div class="chart-grid"><span></span><span></span><span></span><span></span></div>
-                  <svg viewBox="0 0 420 180" role="img" aria-label="Illustrative rising line graph">
-                    <defs><linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C97989" stop-opacity=".32"/><stop offset="100%" stop-color="#C97989" stop-opacity="0"/></linearGradient></defs>
-                    <path d="M0 150 C35 143 46 119 80 128 S130 92 165 104 S220 69 254 82 S310 40 345 52 S390 20 420 15 L420 180 L0 180 Z" fill="url(#chartFill)"/>
-                    <path d="M0 150 C35 143 46 119 80 128 S130 92 165 104 S220 69 254 82 S310 40 345 52 S390 20 420 15" fill="none" stroke="#7A3F48" stroke-width="4" stroke-linecap="round"/>
-                    <circle cx="345" cy="52" r="6" fill="#fff" stroke="#C97989" stroke-width="4"/>
-                    <circle cx="420" cy="15" r="6" fill="#fff" stroke="#7A3F48" stroke-width="4"/>
-                  </svg>
-                  <div class="chart-months"><span>Start</span><span>Build</span><span>Grow</span><span>Scale</span></div>
-                </div>
-                <div class="growth-bottom"><span><i class="fa-solid fa-bullseye me-2"></i>Strategy built around your goals</span><i class="fa-solid fa-arrow-up-right-dots"></i></div>
-              </div>
-              <div class="floating-note note-top"><span class="float-icon"><i class="fa-solid fa-magnifying-glass"></i></span><div><strong>Be easier to find</strong><small>SEO + local search</small></div></div>
-              <div class="floating-note note-bottom"><span class="float-icon float-icon-dark"><i class="fa-solid fa-bullhorn"></i></span><div><strong>Reach more people</strong><small>Content + paid ads</small></div></div>
-              <div class="decorative-star" aria-hidden="true">✳</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section-space" id="about">
-      <div class="container">
-        <div class="row align-items-center g-5">
-          <div class="col-lg-5"><div class="about-visual"><div class="about-big-mark">R<span>Q</span></div><div class="about-note"><i class="fa-solid fa-check-circle me-2"></i>Clear goals. Practical action.</div><div class="about-decoration"></div></div></div>
-          <div class="col-lg-7">
-            <span class="eyebrow">WHY RANQRAFT</span>
-            <h2>A digital partner that keeps your <span class="text-accent">goals in focus.</span></h2>
-            <p class="muted-copy mt-3">Choosing a marketing partner is a big step. We aim to make the process straightforward, transparent and focused on the outcomes that matter to your business.</p>
-            <div class="benefit-list">
-              <div class="benefit-item"><span><i class="fa-solid fa-users"></i></span><div><h3>Experienced team</h3><p>Digital strategy across websites, SEO, social media and advertising. Verify the stated 8+ years before publishing.</p></div></div>
-              <div class="benefit-item"><span><i class="fa-solid fa-sliders"></i></span><div><h3>Plans that fit your needs</h3><p>Recommendations based on your goals, audience, competition and available budget.</p></div></div>
-              <div class="benefit-item"><span><i class="fa-solid fa-layer-group"></i></span><div><h3>Multiple services, one team</h3><p>Bring your website, content, design, SEO and ads together under one coordinated plan.</p></div></div>
-              <div class="benefit-item"><span><i class="fa-solid fa-chart-simple"></i></span><div><h3>Clear reports and honest advice</h3><p>Understand the work completed, what changed and what we recommend next.</p></div></div>
-            </div>
-            <a class="text-link" href="#contact">Talk about your business <i class="fa-solid fa-arrow-right ms-2"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section-space" id="services">
-      <div class="container">
-        <div class="section-heading text-center mx-auto">
-          <span class="eyebrow">WHAT WE DO</span>
-          <h2>Digital marketing services that <span class="text-accent">move you forward.</span></h2>
-          <p>Every business has different goals, customers and budgets. We understand your needs first, then recommend the services that make the most sense.</p>
-        </div>
-        <div class="row g-4 mt-3">
-          <div class="col-md-6 col-xl-4"><article class="service-card"><div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div><div class="service-meta">01 / BUILD</div><h3>Website Development</h3><p>Clean, fast, mobile-friendly business websites, custom websites, WordPress builds, landing pages and redesigns designed to turn visits into enquiries.</p><div class="service-foot"><span>Plans from <strong>₹4,999</strong></span><a href="#contact" aria-label="Ask about website development"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></article></div>
-          <div class="col-md-6 col-xl-4"><article class="service-card"><div class="service-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div><div class="service-meta">02 / GET FOUND</div><h3>Search Engine Optimization</h3><p>Keyword research, on-page and technical SEO, content improvements, internal links and backlinks, supported by clear monthly reporting.</p><div class="service-foot"><span>Plans from <strong>₹3,000/mo</strong></span><a href="#contact" aria-label="Ask about SEO"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></article></div>
-          <div class="col-md-6 col-xl-4"><article class="service-card featured-service"><div class="service-icon"><i class="fa-solid fa-location-dot"></i></div><div class="service-meta">03 / LOCAL REACH</div><h3>Local SEO &amp; Google Maps</h3><p>Improve your Google Business Profile, local business information, review strategy and service-area pages to help nearby customers find you.</p><div class="service-foot"><span>Built for local visibility</span><a href="#contact" aria-label="Ask about local SEO"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></article></div>
-          <div class="col-md-6 col-xl-4"><article class="service-card"><div class="service-icon"><i class="fa-brands fa-instagram"></i></div><div class="service-meta">04 / CONNECT</div><h3>Social Media Marketing</h3><p>Content calendars, branded creatives, reels and account management for a consistent presence on Instagram and Facebook.</p><div class="service-foot"><span>Plans from <strong>₹4,999/mo</strong></span><a href="#contact" aria-label="Ask about social media marketing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></article></div>
-          <div class="col-md-6 col-xl-4"><article class="service-card"><div class="service-icon"><i class="fa-solid fa-bullseye"></i></div><div class="service-meta">05 / CONVERT</div><h3>Google Ads &amp; PPC</h3><p>Search campaigns, ad copy, landing pages and call/form tracking, with regular optimisation to help reduce wasted ad spend.</p><div class="service-foot"><span>Ad budget billed separately</span><a href="#contact" aria-label="Ask about Google Ads"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></article></div>
-          <div class="col-md-6 col-xl-4"><article class="service-card"><div class="service-icon"><i class="fa-solid fa-cart-shopping"></i></div><div class="service-meta">06 / SELL ONLINE</div><h3>E-commerce Website &amp; SEO</h3><p>Online stores with clear categories, helpful product pages, mobile-friendly checkout and search optimisation to support more orders.</p><div class="service-foot"><span>Store + search strategy</span><a href="#contact" aria-label="Ask about e-commerce"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></article></div>
-          <div class="col-md-6 col-xl-4"><article class="service-card"><div class="service-icon"><i class="fa-solid fa-pen-nib"></i></div><div class="service-meta">07 / LOOK DISTINCT</div><h3>Graphic Design &amp; Branding</h3><p>Logo design, brand colours, social creatives, banners and marketing materials that create a consistent brand identity.</p><div class="service-foot"><span>Plans from <strong>₹1,799</strong></span><a href="#contact" aria-label="Ask about branding"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></article></div>
-          <div class="col-md-6 col-xl-4"><article class="service-card"><div class="service-icon"><i class="fa-solid fa-file-lines"></i></div><div class="service-meta">08 / INFORM</div><h3>Content &amp; Lead Generation</h3><p>Search-friendly service pages, blogs and landing pages that answer questions and guide interested visitors to contact you.</p><div class="service-foot"><span>Content with a clear purpose</span><a href="#contact" aria-label="Ask about content marketing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></article></div>
-          <div class="col-md-6 col-xl-4"><article class="service-card"><div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div><div class="service-meta">09 / BUILD MORE</div><h3>Mobile App Development</h3><p>Mobile app planning and development shaped around your customers, internal workflows, features, budget and timeline.</p><div class="service-foot"><span>Custom quote</span><a href="#contact" aria-label="Ask about mobile app development"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></article></div>
-        </div>
-      </div>
-    </section>
-    <section class="section-space section-soft" id="technologies">
-      <div class="container">
-        <div class="section-heading text-center mx-auto"><span class="eyebrow">05 — OUR TECHNOLOGIES</span><h2>The right tools for <span class="text-accent">the right job.</span></h2><p>We choose practical technologies to create responsive websites, useful integrations and measurable digital campaigns.</p></div>
-        <div class="technology-grid row g-3 mt-3">
-          <div class="col-6 col-md-4 col-lg-3"><div class="tech-card"><i class="fa-brands fa-html5"></i><span>HTML5</span></div></div>
-          <div class="col-6 col-md-4 col-lg-3"><div class="tech-card"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div></div>
-          <div class="col-6 col-md-4 col-lg-3"><div class="tech-card"><i class="fa-brands fa-js"></i><span>JavaScript</span></div></div>
-          <div class="col-6 col-md-4 col-lg-3"><div class="tech-card"><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></div></div>
-          <div class="col-6 col-md-4 col-lg-3"><div class="tech-card"><i class="fa-brands fa-wordpress"></i><span>WordPress</span></div></div>
-          <div class="col-6 col-md-4 col-lg-3"><div class="tech-card"><i class="fa-brands fa-php"></i><span>PHP</span></div></div>
-          <div class="col-6 col-md-4 col-lg-3"><div class="tech-card"><i class="fa-solid fa-database"></i><span>MySQL</span></div></div>
-          <div class="col-6 col-md-4 col-lg-3"><div class="tech-card"><i class="fa-brands fa-react"></i><span>React</span></div></div>
-          <div class="col-6 col-md-4 col-lg-3"><div class="tech-card"><i class="fa-brands fa-shopify"></i><span>Shopify</span></div></div>
-          <div class="col-6 col-md-4 col-lg-3"><div class="tech-card"><i class="fa-brands fa-elementor"></i><span>Elementor</span></div></div>
-          <div class="col-6 col-md-4 col-lg-3"><div class="tech-card"><i class="fa-brands fa-google"></i><span>Google Ads</span></div></div>
-          <div class="col-6 col-md-4 col-lg-3"><div class="tech-card"><i class="fa-solid fa-chart-line"></i><span>SEO & Analytics</span></div></div>
-        </div>
-      </div>
-    </section>
-    <section class="section-space" id="team">
-      <div class="container">
-        <div class="row align-items-end g-4 mb-4"><div class="col-lg-8"><span class="eyebrow">THE PEOPLE BEHIND THE WORK</span><h2>Meet your <span class="text-accent">digital growth team.</span></h2></div><div class="col-lg-4"><p class="muted-copy mb-0">Add real team photos and confirm each person's role before publishing.</p></div></div>
-        <div class="row g-4">
-          <div class="col-6 col-lg-3"><article class="team-card"><div class="team-photo team-photo-one"><i class="fa-solid fa-user"></i></div><h3>Anil</h3><p>SEO Specialist</p></article></div>
-          <div class="col-6 col-lg-3"><article class="team-card"><div class="team-photo team-photo-two"><i class="fa-solid fa-user"></i></div><h3>Ananya</h3><p>Social Media Marketing Specialist</p></article></div>
-          <div class="col-6 col-lg-3"><article class="team-card"><div class="team-photo team-photo-three"><i class="fa-solid fa-user"></i></div><h3>Rajat</h3><p>Full Stack Developer</p></article></div>
-          <div class="col-6 col-lg-3"><article class="team-card"><div class="team-photo team-photo-four"><i class="fa-solid fa-user"></i></div><h3>Archana</h3><p>Full Stack Developer</p></article></div>
-        </div>
-      </div>
-    </section>
-    <section class="section-space section-dark" id="why-us">
-      <div class="container">
-        <div class="section-heading text-center mx-auto"><span class="eyebrow eyebrow-light">WHY CHOOSE RANQRAFT</span><h2>A thoughtful approach to <span class="text-pink">your business growth.</span></h2><p>Know what happens next, who you speak to and how progress is reviewed.</p></div>
-        <div class="row g-4 mt-4 process-row">
-          <div class="col-md-6 col-lg-3"><div class="process-card"><span class="process-number">01</span><div class="process-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div><h3>Free audit</h3><p>We review your website, Google presence and competitors.</p></div></div>
-          <div class="col-md-6 col-lg-3"><div class="process-card"><span class="process-number">02</span><div class="process-icon"><i class="fa-solid fa-map"></i></div><h3>Clear plan</h3><p>We outline practical priorities, tasks and goals for the first 90 days.</p></div></div>
-          <div class="col-md-6 col-lg-3"><div class="process-card"><span class="process-number">03</span><div class="process-icon"><i class="fa-solid fa-gears"></i></div><h3>Work in progress</h3><p>Your point of contact keeps tasks moving and communication clear.</p></div></div>
-          <div class="col-md-6 col-lg-3"><div class="process-card"><span class="process-number">04</span><div class="process-icon"><i class="fa-solid fa-chart-column"></i></div><h3>Monthly review</h3><p>We share results and agree on the next steps together.</p></div></div>
-        </div>
-      </div>
-    </section>
-    <section class="section-space section-soft" id="faq">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-4"><span class="eyebrow">FAQ</span><h2>Questions? We have <span class="text-accent">answers.</span></h2><p class="muted-copy">Still unsure which service is right for you? Talk to us about your business and goals.</p><a href="https://wa.me/919140271496" class="text-link" target="_blank" rel="noopener">Ask us on WhatsApp <i class="fa-solid fa-arrow-right ms-2"></i></a></div>
-          <div class="col-lg-8">
-            <div class="accordion faq-accordion" id="faqAccordion">
-              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">1. What services does Ranqraft offer?</button></h3><div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body">We offer website development, SEO, local SEO, social media marketing, Google Ads, PPC, e-commerce websites, graphic design, branding, content marketing, lead generation and mobile app development.</div></div></div>
-              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">2. Why choose Ranqraft as my digital marketing agency in Lucknow?</button></h3><div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">We bring multiple digital services under one team, with clear plans, transparent pricing and simple reports focused on useful outcomes. Verify experience claims before publishing.</div></div></div>
-              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">3. How much do digital marketing services cost in Lucknow?</button></h3><div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Website plans start from ₹4,999, SEO from ₹3,000 per month, social media from ₹4,999 per month and design from ₹1,799. Google Ads management pricing is provided after you confirm the scope. Final prices depend on your requirements.</div></div></div>
-              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">4. How long does SEO take to show results?</button></h3><div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">SEO timing depends on your website, competition and industry. Some early improvements may appear within a few months, while stronger results can take longer. No one can honestly guarantee a specific ranking.</div></div></div>
-              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">5. What is the difference between SEO and Google Ads?</button></h3><div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Google Ads can generate visibility quickly while you pay for campaigns. SEO builds organic visibility over time. Depending on your goals, using both can be helpful.</div></div></div>
-              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">6. Can you build my website and do SEO together?</button></h3><div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Yes. Planning SEO alongside website structure, content, performance and mobile usability can help create a stronger foundation from the start.</div></div></div>
-              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">7. What is local SEO and why do I need it?</button></h3><div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Local SEO helps eligible businesses improve their visibility in local search and Google Maps. It is useful for clinics, shops, showrooms and service providers who serve a specific area.</div></div></div>
-              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">8. Can small businesses get leads with Ranqraft?</button></h3><div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">We can help small businesses begin with practical essentials—such as a clear website and a complete business profile—and build from there according to budget and results.</div></div></div>
-              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq9" aria-expanded="false" aria-controls="faq9">9. How can I find a digital marketing company near me?</button></h3><div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Compare services, genuine reviews, relevant past work, pricing clarity and how well each company explains its plan. Ranqraft serves Lucknow and clients across India.</div></div></div>
-              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10">10. How do I get started with Ranqraft?</button></h3><div id="faq10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Call or message us on WhatsApp at +91-9140271496 and share your business, goals and budget. We can discuss an initial audit and suitable next steps.</div></div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="final-cta section-space" id="contact">
-      <div class="container"><div class="cta-panel"><div class="cta-decoration" aria-hidden="true"></div><div class="row align-items-center g-4 position-relative"><div class="col-lg-7"><span class="eyebrow eyebrow-light">READY TO GET STARTED?</span><h2>Let's grow your business with <span class="text-pink">Ranqraft.</span></h2><p>Your customers are searching online. Let’s review your website and Google presence, then identify practical opportunities to help you get more enquiries.</p><div class="d-flex flex-wrap gap-3"><a class="btn btn-light-custom btn-lg" href="https://wa.me/919140271496" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp me-2"></i>Chat on WhatsApp</a><a class="btn btn-outline-light-custom btn-lg" href="tel:+919140271496"><i class="fa-solid fa-phone me-2"></i>Call Us</a></div></div><div class="col-lg-5"><div class="contact-card"><h3>Contact Ranqraft</h3><p class="contact-card-intro">Tell us a little about your business and we’ll get in touch.</p><form id="contactForm">
-              <div class="mb-3"><label for="name" class="form-label">Your name</label><input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required></div>
-              <div class="mb-3"><label for="phone" class="form-label">Phone number</label><input type="tel" class="form-control" id="phone" name="phone" placeholder="+91" pattern="[0-9+() -]{8,18}" required></div>
-              <div class="mb-3"><label for="service" class="form-label">What do you need help with?</label><select class="form-select" id="service" name="service" required><option value="" selected disabled>Select a service</option><option>Website Development</option><option>SEO / Local SEO</option><option>Social Media Marketing</option><option>Google Ads / PPC</option><option>E-commerce</option><option>Branding / Graphic Design</option><option>Mobile App Development</option><option>Not sure yet</option></select></div>
-              <button type="submit" class="btn btn-primary-custom w-100">Send enquiry on WhatsApp <i class="fa-solid fa-arrow-right ms-2"></i></button>
-              <p class="form-note mb-0">This demo form opens WhatsApp with your details. No data is stored on this website.</p>
-            </form></div></div></div></div></div>
-    </section>
-    <section class="section-space contact-details">
-      <div class="container"><div class="row g-4">
-        <div class="col-md-4"><div class="contact-detail"><span class="detail-icon"><i class="fa-solid fa-location-dot"></i></span><div><h3>Visit our office</h3><p>Gomti Nagar, Lucknow, Uttar Pradesh</p><small>Add full street address and PIN code before publishing.</small></div></div></div>
-        <div class="col-md-4"><div class="contact-detail"><span class="detail-icon"><i class="fa-solid fa-phone"></i></span><div><h3>Call or message</h3><p><a href="tel:+919140271496">+91-9140271496</a></p><small>Open daily, 9 AM–10 PM (confirm hours).</small></div></div></div>
-        <div class="col-md-4"><div class="contact-detail"><span class="detail-icon"><i class="fa-regular fa-envelope"></i></span><div><h3>Email us</h3><p><a href="#contact">Add your business email</a></p><small>Replace this with your verified email address.</small></div></div></div>
-      </div><div class="map-placeholder mt-4"><i class="fa-solid fa-map-location-dot"></i><div><strong>Google Maps location</strong><p class="mb-0">Add your verified Google Maps embed and Google Business Profile link here.</p></div><span class="map-placeholder-tag">MAP EMBED PLACEHOLDER</span></div></div>
-    </section>
-    <footer class="site-footer">
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-4"><a class="navbar-brand brand footer-brand" href="#home"><span class="brand-mark">R<span>Q</span></span><span>ranqraft<span class="brand-dot">.</span></span></a><p class="footer-about mt-3">Digital marketing, website development and creative solutions for businesses in Lucknow and across India.</p><div class="social-links"><a href="https://wa.me/919140271496" aria-label="WhatsApp Ranqraft" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a><a href="#" aria-label="Instagram (add profile link)"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="Facebook (add profile link)"><i class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="LinkedIn (add profile link)"><i class="fa-brands fa-linkedin-in"></i></a></div></div>
-        <div class="col-6 col-lg-2"><h3 class="footer-heading">Quick Links</h3><ul class="footer-links"><li><a href="#home">Home</a></li><li><a href="#about">About Us</a></li><li><a href="#services">Services</a></li><li><a href="#technologies">Technologies</a></li><li><a href="#team">Our Experts</a></li><li><a href="#why-us">Why Choose Us</a></li><li><a href="#faq">FAQs</a></li><li><a href="#contact">Contact</a></li></ul></div>
-        <div class="col-6 col-lg-3"><h3 class="footer-heading">Our Services</h3><ul class="footer-links"><li><a href="#services">Website Development</a></li><li><a href="#services">SEO &amp; Local SEO</a></li><li><a href="#services">Social Media Marketing</a></li><li><a href="#services">Google Ads &amp; PPC</a></li><li><a href="#services">Branding &amp; Design</a></li></ul></div>
-        <div class="col-lg-3"><h3 class="footer-heading">Get in Touch</h3><ul class="footer-contact"><li><i class="fa-solid fa-location-dot"></i><span>Gomti Nagar, Lucknow, Uttar Pradesh</span></li><li><i class="fa-solid fa-phone"></i><a href="tel:+919140271496">+91-9140271496</a></li><li><i class="fa-regular fa-clock"></i><span>9 AM–10 PM (confirm hours)</span></li></ul><a href="#contact" class="btn btn-primary-custom mt-2">Get Free Audit <i class="fa-solid fa-arrow-right ms-2"></i></a></div>
-      </div>
-      <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between gap-2 mt-5"><span>© <span id="currentYear"></span> Ranqraft. All rights reserved.</span><span>Made for meaningful digital growth.</span></div>
-    </div>
-  </footer>
+  </main>
+  <div data-include="sections/footer.html"></div>
+      <div data-include="sections/copyright.html"></div>
   <a class="floating-whatsapp" href="https://wa.me/919140271496" target="_blank" rel="noopener" aria-label="Chat with Ranqraft on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-  <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/sections.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
 </body>
 </html>

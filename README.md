@@ -1,2 +1,0 @@
-# ranqraft
-Ranqraft business website
