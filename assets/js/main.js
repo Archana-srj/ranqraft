@@ -235,4 +235,4 @@ document.addEventListener("sections:loaded", () => {
 
   document.addEventListener("sections:loaded", initHeader, { once: true });
 })();
-  
+    
